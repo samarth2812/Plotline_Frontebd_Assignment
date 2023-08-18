@@ -1,0 +1,113 @@
+/* CSS Styles for all the headings of label, text of input field */
+.sub_head{
+    margin-top: 2.5%;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.sub_head1{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1.5%;
+}
+.sub_head2{
+    margin-left: 10%;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1.5%;
+}
+.options{
+    color: gray;
+    padding-left: 2%;
+    margin-top: 1.5%;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    Width:555.56px;
+    box-shadow: 0 2px 4px rgba(241, 236, 236, 0.1);
+    border: 1px solid #dcdbdb;
+    border-radius: 6px;
+Height:25px
+}
+.sub_option{
+    color: grey;
+    margin-top: 3.5%;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(241, 236, 236, 0.1);
+    border: 1px solid #dcdbdb;
+    border-radius: 6px;
+    Width:246.22px;
+Height:25px;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    Width: 643px;
+    Height:540px;
+    border-radius: 23.39px;
+    gap: 9.49px;  
+    padding: 50px; 
+   background-color: rgba(245, 245, 245, 1);
+}
+.drop{
+    width: Fixed (547.56px);
+height: Fixed (39px);
+border-radius: 6px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input {
+    width: Fixed (547.56px);
+    height: Fixed (39px);
+    border-radius: 6px;
+    
+  }
+  /* CSS Styles for the left side mobile view */
+  .mobile{
+    width: 307.4px;
+    height: 631.39px;
+    border-radius: 29px;
+    border: 20px solid rgba(44, 44, 44, 1);
+  }
+  .mobile1{
+    Width: 307.43px;
+    Height: 631.56px;
+    border-radius: 11px;
+gap: 9.4px;
+background: rgba(0, 0, 0, 0.25);
+display: flex;
+justify-content: center; 
+align-items: center;
+gap: 10px;
+position: relative;
+  }

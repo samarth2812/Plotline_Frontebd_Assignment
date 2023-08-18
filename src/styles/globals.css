@@ -1,0 +1,180 @@
+/* styles/globals.css */
+/* Global stylesheet to style the main elements of the webpage- main container */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+
+button {
+  margin: 5px 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+
+}
+
+.button-form {
+  width: 40%;
+}
+.button-list {
+  margin: 5px 5px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
+  position: relative;
+}
+
+.button-list button {
+  width: 76px;
+  height: 30px; 
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-form {
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* Responsive design */
+/* Tablet View */
+@media only screen and (max-device-width:1496px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+    height: 100vh;
+}
+.button-list,
+.button-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+  max-width: 90%; 
+}
+.button-form{
+  margin-top: 100%;
+}
+#main_box{
+  Width: 543px;
+  Height: 440px;
+}
+#target_ele{
+  Width: 455.56px;
+}
+#text{
+  Width: 455.56px;
+}
+#size{
+  Width: 188.22px;
+}
+#padd{
+  Width: 213.22px;
+}
+#color{
+  Width: 455.56px;
+}
+#back{
+  Width: 455.56px;
+}
+#rad{
+  Width: 188.22px;
+}
+#num{
+  Width: 213.22px;
+}
+#ar_w{
+  Width: 188.22px;
+}
+#ar_h{
+  Width: 213.22px;
+}
+#mob_view{
+  margin-top: 10%;
+}
+
+}
+ /*mobile view of the app*/
+@media only screen and (max-device-width:671px) {
+  #main_box{
+    Width: 266px;
+    Height: 268px;
+    padding: 34px 28px 143px 28px;
+  }
+  .button-form label{
+    font-size: 12px;
+  }
+  #target_ele {
+    Width: 259.56px;
+}
+#text {
+  Width: 248.56px;
+  margin-top: 0.5%;
+}
+#size {
+  Width: 100.22px;
+  margin-top: 1.5%;
+}
+#padd {
+  Width: 116.22px;
+  margin-top: 1.5%;
+}
+#color{
+  Width: 244.56px;
+  margin-top: 0.5%;
+}
+#back{
+  Width: 244.56px;
+  margin-top: 0.5%;
+}
+#rad {
+  Width: 100.22px;
+  margin-top: 1.5%;
+}
+#num {
+  Width: 116.22px;
+  margin-top: 1.5%;
+}
+#ar_w {
+  Width: 100.22px;
+  margin-top: 1.5%;
+}
+#ar_h {
+  Width: 116.22px;
+  margin-top: 1.5%;
+}
+.two{
+  margin-top: 2px;
+}
+#first{
+  width: 221.4px;
+  height: 417.39px;
+}
+#second{
+  Width: 222.43px;
+    Height:418.56px;
+}
+
+}
+
