@@ -19,6 +19,7 @@ Good-to-Have
 Image Support: Ability to include an image inside the tooltip. Users should be able to upload an image and style it within the tooltip.
 Design
 The design for the app is available in the provided Figma file.
+## Hosted Link- https://stunning-otter-04bab6.netlify.app/
  ## Getting Started
 Clone the repository: git clone https://github.com/samarth2812/Plotline_Frontebd_Assignment.git
 ## Install dependencies: npm install
