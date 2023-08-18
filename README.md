@@ -9,7 +9,9 @@ Build a frontend app using React.js / Next.js to create and preview tooltips. Th
 Clone the repository: git clone https://github.com/samarth2812/Plotline_Frontebd_Assignment.git
 ## Install dependencies: npm install
 ## Start the development server: npm run dev
- ## Features
+
+ ## Featu[screen-capture.webm](https://github.com/samarth2812/Plotline_Frontebd_Assignment/assets/83126069/b3624433-6624-46fa-8402-a7a0d87df21f)
+res
 Tooltip Creation: Users should be able to create tooltips by specifying the target element, position (top/right/bottom/left), style, and text.
 
 Real-Time Preview: The app should provide a real-time preview of a mobile screen with button elements. These buttons will act as the target elements for the tooltip to be rendered.
