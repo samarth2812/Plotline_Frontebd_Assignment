@@ -1,38 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## In-App Nudges Frontend App
+ ## Problem Statement
+In-app nudges provide non-intrusive guides for various features of a mobile app. Setting up tooltips will help draw attention to a given element on the screen. The purpose of this project is to build a frontend app that allows users to create tooltips with dynamic positioning, style, and text. The app will also include a live preview of the tooltip being rendered.
 
-## Getting Started
+## Instructions
+Build a frontend app using React.js / Next.js to create and preview tooltips. The app should allow users to set the target element, position (top/right/bottom/left), style, text, and optionally include an image inside the tooltip. The tooltip component should be built and positioned without the use of any additional libraries.
 
-First, run the development server:
+ ## Features
+## Must-Haves
+Tooltip Creation: Users should be able to create tooltips by specifying the target element, position (top/right/bottom/left), style, and text.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Real-Time Preview: The app should provide a real-time preview of a mobile screen with button elements. These buttons will act as the target elements for the tooltip to be rendered.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Custom Styling: Users should be able to customize the style of the tooltip, including background color, text color, font size, border, etc.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Persistent Data: The data used to build the tooltip should be persistent, allowing users to create, modify, and save tooltips for future reference.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Good-to-Have
+Image Support: Ability to include an image inside the tooltip. Users should be able to upload an image and style it within the tooltip.
+Design
+The design for the app is available in the provided Figma file.
+ ## Getting Started
+Clone the repository: git clone https://github.com/samarth2812/Plotline_Frontebd_Assignment.git
+## Install dependencies: npm install
+## Start the development server: npm run dev
+## Usage
+Open the app in your web browser.
+Use the provided interface to create tooltips with different positions, styles, and text.
+Preview the tooltips in real-time on a mobile screen.
+Optionally, include images inside tooltips for added visual appeal.
+Save the tooltips for future reference.
+Technologies Used
+ Next.js
+HTML5 / CSS3
+JavaScript
+## Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.
