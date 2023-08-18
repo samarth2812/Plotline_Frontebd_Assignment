@@ -12,6 +12,10 @@ Clone the repository: git clone https://github.com/samarth2812/Plotline_Frontebd
 
 [screen-capture.webm](https://github.com/samarth2812/Plotline_Frontebd_Assignment/assets/83126069/a4f21129-a369-4757-8574-0827f9ff3659)
 
+## Moblie View (Iphone Se)
+
+[screen-capture (1).webm](https://github.com/samarth2812/Plotline_Frontebd_Assignment/assets/83126069/8eca2251-d774-47ae-959e-ddd9f9eea5d0)
+
 Tooltip Creation: Users should be able to create tooltips by specifying the target element, position (top/right/bottom/left), style, and text.
 
 Real-Time Preview: The app should provide a real-time preview of a mobile screen with button elements. These buttons will act as the target elements for the tooltip to be rendered.
